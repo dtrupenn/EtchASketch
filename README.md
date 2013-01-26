@@ -1,5 +1,6 @@
 # Paint Brush
 Author: **Dan Trujillo**
+
 January 26, 2013
 
 ## Purpose

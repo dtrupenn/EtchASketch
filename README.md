@@ -14,3 +14,8 @@ This application is meant to be a paint app for the Android operating system whe
 * Clear button provided to delete a potential masterpiece
 * Clears drawing on rotation of device ( à la etch a sketch)
 * Changes width of drawing elements based on device screen.
+
+## Tested on
+* Nexus 7: Android 4.2.1, 1280x800
+* Motorola Razer: Android 4.0.4, 960x540
+* Adb Emulator: Adnroid 4.1, 800x480

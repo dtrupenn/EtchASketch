@@ -26,7 +26,7 @@ public class PaintBrushView extends View{
 	protected ShapeDrawable squareA, squareB, squareC, squareD, squareE, squareF;
 	int width, height;
 	protected Paint p = new Paint();
-	List<Dot> points = new ArrayList<Dot>();
+	static List<Dot> points = new ArrayList<Dot>();
 
 	@SuppressLint("NewApi")
 	@SuppressWarnings("deprecation")
@@ -203,8 +203,8 @@ public class PaintBrushView extends View{
 		return false;
 	}
 	
-	public void clearDots(){
-		points = new ArrayList<Dot>();
+	public static void clearDots(){
+		points.clear();
 	}
 	
 	class Dot {

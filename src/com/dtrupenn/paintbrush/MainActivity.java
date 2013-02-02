@@ -12,8 +12,8 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		//setContentView(R.layout.activity_main);
-		setContentView(new PaintBrushView(this));
+		setContentView(R.layout.activity_main);
+		//setContentView(new PaintBrushView(this));
 	}
 
 	@Override
@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
 	
 	
 	public void clearBoard(View view) {
-		
+		BrushView brush = (BrushView) findViewById(R.id.brush_view);
+		brush.clearDots();
 	}
 }
